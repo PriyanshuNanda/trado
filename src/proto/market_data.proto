@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package marketdata;
+
+message MarketData {
+  double ltp = 1;
+  double cp = 2;
+  string token = 3;
+  int64 timestamp = 4;
+}
+
+message MarketDataBatch {
+  repeated MarketData data = 1;
+} 

@@ -1,0 +1,32 @@
+{
+  "name": "market-data-hackathon",
+  "version": "1.0.0",
+  "description": "EMQX MQTT Market Data Collector Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mqtt",
+    "market-data",
+    "hackathon"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mqtt": "^2.5.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "mqtt": "^5.0.5",
+    "pg": "^8.11.3",
+    "protobufjs": "^7.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "@types/pg": "^8.10.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
